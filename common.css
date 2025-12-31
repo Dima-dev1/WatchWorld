@@ -1,0 +1,61 @@
+body {
+    background-color: #EBF8ED;
+    min-height: 100vh;
+    padding: 0;
+    margin: 0;
+}
+
+.button{
+    cursor: pointer;
+    min-width: 165px;
+    height: 48px;
+}
+
+.button--primary {
+    background-color: #3350E9;
+    font-size: 16px;
+    line-height: 160%;
+    color: white;
+    border-radius: 16px;
+}
+
+.button--secondary {
+    background-color: black;
+    font-size: 16px;
+    line-height: 160%;
+    color: white;
+    border-radius: 6px;
+    max-width: 334px;
+    width: 100%;
+}
+
+.button--transparent {
+    background-color: transparent;
+    border-radius: 6px;
+    line-height: 160%;
+    color: white;
+    min-width: 160px;
+    height: 48px;
+}
+
+.form__field{
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    width: 100%;
+}
+
+.form__field label{
+    font-size: 16;
+    color: black;
+    line-height: 160%;
+}
+
+.form__field input{
+    border-radius: 6px;
+    background-color: rgb(215, 212, 212);
+    border: 1px solid rgb(160, 158, 158);
+    min-height: 42px;
+    padding: 0 10px;
+
+}

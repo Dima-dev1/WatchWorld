@@ -1,0 +1,22 @@
+.signin-card{
+    background-color: white;
+    max-width: 850px;
+    padding: 20px;
+    margin: 134px auto;
+    height: 100%;
+}
+
+main{
+    height: 908px;
+}
+
+.form{
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+.signin-card__title{
+    max-width: 372px;
+    margin: 0 auto;
+}
